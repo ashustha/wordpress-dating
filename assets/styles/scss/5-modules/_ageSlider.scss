@@ -1,0 +1,14 @@
+.slider.slider-horizontal .slider-selection,
+.slider.slider-horizontal .slider-track-low,
+.slider.slider-horizontal .slider-track-high {
+  height: 100%;
+  top: 0px;
+  bottom: 0;
+  display: none;
+}
+
+.slider-handle {
+  background-image: none;
+  background-image: none;
+  background-color: #dc3545 !important;
+}

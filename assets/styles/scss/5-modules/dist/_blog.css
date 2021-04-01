@@ -1,0 +1,17 @@
+.blog_image {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.blog_image img {
+  height: 150px;
+  object-fit: center;
+}
+.blog_content_title {
+  font-size: 2.2em;
+}
+.blog_content_short-description {
+  font-size: 1.4em;
+}
+.blog_content_date {
+  font-size: 1.4em;
+}

@@ -1,0 +1,14 @@
+.section-title {
+  margin-bottom: 20px;
+  h2 {
+    @include title;
+  }
+}
+
+@media (max-width: 560px) {
+  .section-title {
+    h2 {
+      font-size: 3.8em;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+footer {
+  padding: 50px 0px;
+  background-color: #edf2f6;
+}
+footer .footer-title {
+  margin-bottom: 30px;
+}
+footer .footer-title h2 {
+  font-size: 24px;
+}
+footer .aboutUs {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+footer .quick-links li {
+  font-size: 14px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+#banner {
+  padding: 50px 0px;
+}
+
+.main-slogan {
+  font-family: Parisienne-Regular;
+  font-size: 4.8em;
+  text-align: center;
+  line-height: 30px;
+}
+
+.sub-slogan {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .main-slogan {
+    font-size: 3.8em;
+    line-height: 60px;
+  }
+}

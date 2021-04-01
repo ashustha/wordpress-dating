@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" integrity="sha512-3q8fi8M0VS+X/3n64Ndpp6Bit7oXSiyCnzmlx6IDBLGlY5euFySyJ46RUlqIVs0DPCGOypqP8IRk/EyPvU28mQ==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles/scss/main.css" />
+    <title>Wordpress Dating</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <div class="logo">
+          <h1>Wordpress Dating</h1>
+          </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse justify-content-between navbar-collapse overflow-hidden"
+            id="navbarSupportedContent"
+          >
+          
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Extras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Buy now</a>
+              </li>
+            </ul>
+            <div class="authorizations">
+              <ul>
+                <li><button class="btn secondary-button">Login</button></li>
+                <li><button class="btn primary-button">Register</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-8">
+            <img src="./assets/images/banner.svg" alt="Vector Image of a couple.">
+            <h2 class="main-slogan">Find your match today</h2>
+            <p class="sub-slogan">Get started to find your love</p>
+          </div>
+          <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="search">
+              <div class="search_title">
+                <h3>Quick Search</h3>
+              </div>
+              <div class="search_form">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="one">I am</label>
+                        <select class="form-control">
+                          <option value="0">--Select--</option>
+                          <option value="1">Man</option>
+                          <option value="2">Women</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="one">Looking for</label>
+                        <select class="form-control">
+                          <option value="0">--Select--</option>
+                          <option value="1">Man</option>
+                          <option value="2">Women</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="d-block" for="age">Age range</label>
+                    <b>18</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="18" data-slider-max="60" data-slider-step="5" data-slider-value="[21,30]"/> <b>60</b>
+                  </div>
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <select name="country" id="country" class="form-control">
+                      <option value="0">--Select--</option>
+                      <option value="1">Nepal</option>
+                      <option value="2">America</option>
+                    </select>
+                  </div>
+                  <button class="btn primary-button btn-block">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured-members">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Members</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person8.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Sonia</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>22 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Arnav</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>21 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person6.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Sahil</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>40 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person4.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Sohan</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>33 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person8.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Sonia</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>22 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Arnav</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>21 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person6.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Sahil</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>40 years old</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="featured-member">
+              <div class="featured-member_image">
+                <img src="./assets/images/person4.jpg" alt="Sonia" />
+                <div class="featured-member_image_view-profile">
+                  <p>View Profile</p>
+                </div>
+              </div>
+              <div class="featured-member_name">
+                <h2>Sohan</h2>
+              </div>
+              <div class="featured-member_age">
+                <h3>33 years old</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="happy-stories">
+      <div class="container">
+        <div class="section-title">
+          <h2>Happy Stories</h2>
+        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-item_image">
+                <div class="person1">
+                  <img src="./assets/images/person5.jpg" alt="" />
+                </div>
+                <div class="person2">
+                  <img src="./assets/images/person6.jpg" alt="" />
+                </div>
+              </div>
+              <h4 class="carousel-item_couple-name">
+                <span>Sofia</span> & <span>Sachin</span>
+              </h4>
+              <p class="carousel-item_couple-testimonial">
+                We met on WP Dating. We met online Way back thanks to WP Dating.
+                We have been dating for a few years and got married. The really
+                part of the story. and other great stuff about the website, now
+                I’m just typing to fill the gap.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item_image">
+                <div class="person1">
+                  <img src="./assets/images/person5.jpg" alt="" />
+                </div>
+                <div class="person2">
+                  <img src="./assets/images/person6.jpg" alt="" />
+                </div>
+              </div>
+              <h4 class="carousel-item_couple-name">
+                <span>Sofia</span> & <span>Sachin</span>
+              </h4>
+              <p class="carousel-item_couple-testimonial">
+                We met on WP Dating. We met online Way back thanks to WP Dating.
+                We have been dating for a few years and got married. The really
+                part of the story. and other great stuff about the website, now
+                I’m just typing to fill the gap.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item_image">
+                <div class="person1">
+                  <img src="./assets/images/person7.jpg" alt="" />
+                </div>
+                <div class="person2">
+                  <img src="./assets/images/person6.jpg" alt="" />
+                </div>
+              </div>
+              <h4 class="carousel-item_couple-name">
+                <span>Sofia</span> & <span>Sachin</span>
+              </h4>
+              <p class="carousel-item_couple-testimonial">
+                We met on WP Dating. We met online Way back thanks to WP Dating.
+                We have been dating for a few years and got married. The really
+                part of the story. and other great stuff about the website, now
+                I’m just typing to fill the gap.
+              </p>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="members">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="members">
+              <div class="block-title">
+                <h3>Online Members</h3>
+              </div>
+              <div class="online-members">
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person7.jpg" alt="" />
+                    <div class="status online"></div>
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Zemla</h3>
+                    <p class="age">30 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-comment-dots"></i>
+                    <div class="message">Message</div>
+                  </div>
+                </div>
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person2.jpg" alt="" />
+                    <div class="status online"></div>
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Zelda</h3>
+                    <p class="age">30 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-comment-dots"></i>
+                    <div class="message">Message</div>
+                  </div>
+                </div>
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person.jpg" alt="" />
+                    <div class="status online"></div>
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Zoya</h3>
+                    <p class="age">44 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-comment-dots"></i>
+                    <div class="message">Message</div>
+                  </div>
+                </div>
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person8.jpg" alt="" />
+                    <div class="status online"></div>
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Ashok</h3>
+                    <p class="age">19 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-comment-dots"></i>
+                    <div class="message">Message</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="members">
+              <div class="block-title">
+                <h3>New Members</h3>
+              </div>
+              <div class="new-members">
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person8.jpg" alt="" />
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Ashoka</h3>
+                    <p class="age">19 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-eye"></i>
+                    <div class="profile">View Profile</div>
+                  </div>
+                </div>
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person.jpg" alt="" />
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Bulma</h3>
+                    <p class="age">44 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-eye"></i>
+                    <div class="profile">View Profile</div>
+                  </div>
+                </div>
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person7.jpg" alt="" />
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Bootstrap</h3>
+                    <p class="age">10 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-eye"></i>
+                    <div class="profile">View Profile</div>
+                  </div>
+                </div>
+                <div class="member">
+                  <div class="member_image">
+                    <img src="./assets/images/person2.jpg" alt="" />
+                  </div>
+                  <div class="member_info">
+                    <h3 class="name">Angular</h3>
+                    <p class="age">20 years old</p>
+                  </div>
+                  <div class="member_message">
+                    <i class="far fa-2x fa-eye"></i>
+                    <div class="profile">View Profile</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="container">
+        <div class="section-title">
+          <h2>Latest Blog</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="blog">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_image">
+                    <img
+                      src="./assets/images/hands.jfif"
+                      alt="Couple Holding Hands"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_content">
+                    <h2 class="blog_content_title">Some great heading</h2>
+                    <p class="blog_content_short-description">
+                      How we are making premium dating a safe space for dating
+                      enthusiast
+                    </p>
+                    <h3 class="blog_content_date">14 Jan 2021</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="blog">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_image">
+                    <img
+                      src="./assets/images/dance.jfif"
+                      alt="Couple Dancing"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_content">
+                    <h2 class="blog_content_title">Some great heading</h2>
+                    <p class="blog_content_short-description">
+                      How we are making premium dating a safe space for dating
+                      enthusiast
+                    </p>
+                    <h3 class="blog_content_date">14 Jan 2021</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="blog">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_image">
+                    <img
+                      src="./assets/images/couple-hands.jpg"
+                      alt="Couple holding hands"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_content">
+                    <h2 class="blog_content_title">Some great heading</h2>
+                    <p class="blog_content_short-description">
+                      How we are making premium dating a safe space for dating
+                      enthusiast
+                    </p>
+                    <h3 class="blog_content_date">14 Jan 2021</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="blog">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_image">
+                    <img
+                      src="./assets/images/restrction.jpg"
+                      alt="Women in airport"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="blog_content">
+                    <h2 class="blog_content_title">Some great heading</h2>
+                    <p class="blog_content_short-description">
+                      How we are making premium dating a safe space for dating
+                      enthusiast
+                    </p>
+                    <h3 class="blog_content_date">14 Jan 2021</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-title">
+              <h2>About Us</h2>
+            </div>
+            <p class="aboutUs">
+              Welcome to WP Dating.com, a Dating Solutions company. We offer a
+              different approach to dating software, the WordPress Dating
+              Plugin. The WordPress Dating Plugin is a unique dating software
+              for the super SEO friendly WordPress platform and the best part
+              about the WordPress Dating Plugin is that it has more features
+              than any other dating software application.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-title">
+              <h2>Quick Links</h2>
+            </div>
+            <ul class="quick-links">
+              <li><a href="#">WP Dating Reviews</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+              <li><a href="#">Members Area</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-title">
+              <h2>Contact Us</h2>
+            </div>
+            <ul class="contact-us">
+              <li>
+                <i class="far fa-envelope"></i>
+                <a href="mailto:support@wpdating.com">support@wpdating.com</a>
+              </li>
+              <li>
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+977 987 8787 887">+977 987 8787 887</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="bottom-footer">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <p class="copyright">Copyright &copy; WP Dating Theme 2021</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-3x fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-3x fa-twitter"></i></a></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js" integrity="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA==" crossorigin="anonymous"></script>
+  <script>
+    $("#ex2").slider({});
+  </script>
+</html>

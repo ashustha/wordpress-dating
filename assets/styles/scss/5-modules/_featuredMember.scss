@@ -1,0 +1,54 @@
+.featured-member {
+  text-align: center;
+  margin-bottom: 30px;
+  &_image {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    img {
+      object-fit: cover;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+    &_view-profile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: $primary-color, $alpha: 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+      transition: all 1s linear;
+    }
+    p {
+      color: $white;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+  }
+  &_name {
+    h2 {
+      font-size: 2.2em;
+    }
+  }
+  &_age {
+    h3 {
+      font-size: 1.6em;
+      color: $dark-grey;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    .featured-member_image_view-profile {
+      display: flex;
+    }
+  }
+}

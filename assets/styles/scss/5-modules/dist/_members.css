@@ -1,0 +1,61 @@
+.members {
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.members .block-title {
+  margin-bottom: 20px;
+}
+.members .block-title h3 {
+  font-size: 20px;
+  font-family: Roboto;
+  padding-bottom: 10px;
+}
+.members .new-members,
+.members .online-members {
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.members .member {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 10px;
+  margin-bottom: 20px;
+}
+.members .member_image {
+  overflow: hidden;
+  grid-column: auto/span 2;
+  justify-self: center;
+  position: relative;
+}
+.members .member_image .online {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  right: 5px;
+  bottom: 5px;
+}
+.members .member_image img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.members .member_info {
+  grid-column: auto/span 8;
+  align-self: center;
+  padding: 15px;
+}
+.members .member_info .name {
+  font-size: 1.8em;
+}
+.members .member_info .age {
+  font-size: 1.4em;
+}
+.members .member_message {
+  grid-column: auto/span 2;
+  align-self: center;
+  cursor: pointer;
+}
