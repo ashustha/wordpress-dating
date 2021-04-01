@@ -1,0 +1,47 @@
+.blog {
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 15px;
+  transition: all 0.2s linear;
+  &:hover {
+    background-color: $mid-grey;
+    border-radius: 30px;
+    &_content {
+      &_title {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &_image {
+    border-radius: 30px;
+    overflow: hidden;
+    // margin-bottom: 15px;
+    img {
+      height: 140px;
+      object-fit: center;
+    }
+  }
+  &_content {
+    &_title {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    &_short-description {
+      font-size: 1.4em;
+      margin-bottom: 20px;
+      color: $dark-grey;
+    }
+    &_date {
+      font-size: 1.4em;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .blog_image {
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+}

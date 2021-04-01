@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(#{$fontPath}/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(#{$fontPath}/Roboto-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Parisienne-Regular;
+  src: url(#{$fontPath}/Parisienne-Regular.ttf);
+  font-weight: 400;
+}
